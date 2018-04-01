@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" output="target/classes" path="src">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.testng.TESTNG_CONTAINER"/>
+	<classpathentry kind="lib" path="seleniumjars/selenium-server-standalone-3.9.1.jar"/>
+	<classpathentry kind="lib" path="seleniumjars/commons-codec-1.10.jar"/>
+	<classpathentry kind="lib" path="seleniumjars/commons-collections4-4.1.jar"/>
+	<classpathentry kind="lib" path="seleniumjars/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="seleniumjars/curvesapi-1.04.jar"/>
+	<classpathentry kind="lib" path="seleniumjars/junit-4.12.jar"/>
+	<classpathentry kind="lib" path="seleniumjars/log4j-1.2.17.jar"/>
+	<classpathentry kind="lib" path="seleniumjars/poi-3.17.jar"/>
+	<classpathentry kind="lib" path="seleniumjars/poi-examples-3.17.jar"/>
+	<classpathentry kind="lib" path="seleniumjars/poi-excelant-3.17.jar"/>
+	<classpathentry kind="lib" path="seleniumjars/poi-ooxml-3.17.jar" sourcepath="C:/Users/GIGANEW/AppData/Local/Temp/.org.sf.feeling.decompiler1522466595674/source/poi-ooxml-3.17-sources.jar"/>
+	<classpathentry kind="lib" path="seleniumjars/poi-ooxml-schemas-3.17.jar"/>
+	<classpathentry kind="lib" path="seleniumjars/poi-scratchpad-3.17.jar"/>
+	<classpathentry kind="lib" path="seleniumjars/xmlbeans-2.6.0.jar"/>
+	<classpathentry kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="output" path="target/classes"/>
+</classpath>

@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[FF Launched Browser sucessfully]]>
+    </line>
+    <line>
+      <![CDATA[URL entered success fully]]>
+    </line>
+    <line>
+      <![CDATA[Error msg is as Expected]]>
+    </line>
+    <line>
+      <![CDATA[Error msg is as Expected]]>
+    </line>
+    <line>
+      <![CDATA[Error msg is as Expected]]>
+    </line>
+    <line>
+      <![CDATA[Error msg is as Expected]]>
+    </line>
+    <line>
+      <![CDATA[Error msg is as Expected]]>
+    </line>
+    <line>
+      <![CDATA[Error msg is as Expected]]>
+    </line>
+    <line>
+      <![CDATA[Error msg is as Expected]]>
+    </line>
+    <line>
+      <![CDATA[Error msg is as Expected]]>
+    </line>
+    <line>
+      <![CDATA[Error msg is as Expected]]>
+    </line>
+    <line>
+      <![CDATA[Error msg is as Expected]]>
+    </line>
+    <line>
+      <![CDATA[Error msg is as Expected]]>
+    </line>
+    <line>
+      <![CDATA[Error msg is as Expected]]>
+    </line>
+    <line>
+      <![CDATA[Error msg is as Expected]]>
+    </line>
+    <line>
+      <![CDATA[Test case 04 executed ]]>
+    </line>
+    <line>
+      <![CDATA[Verify that Error page is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Browser closed sucessfully]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="100806" started-at="2018-04-01T06:24:35Z" finished-at="2018-04-01T06:26:15Z">
+    <groups>
+    </groups>
+    <test name="Test_ff" duration-ms="100806" started-at="2018-04-01T06:24:35Z" finished-at="2018-04-01T06:26:15Z">
+      <class name="scripts.TestScript_04">
+        <test-method status="PASS" signature="launchBrowser(org.testng.xml.XmlTest)[pri:0, instance:scripts.TestScript_04@54a097cc]" name="launchBrowser" is-config="true" duration-ms="67066" started-at="2018-04-01T06:24:35Z" finished-at="2018-04-01T06:25:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.xml.XmlTest@1f86358f]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[FF Launched Browser sucessfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="login()[pri:0, instance:scripts.TestScript_04@54a097cc]" name="login" is-config="true" duration-ms="15496" started-at="2018-04-01T06:25:42Z" finished-at="2018-04-01T06:25:57Z">
+          <reporter-output>
+            <line>
+              <![CDATA[URL entered success fully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="test_verifyMultipleUnSuccessfullLogins_TestData()[pri:0, instance:scripts.TestScript_04@54a097cc]" name="test_verifyMultipleUnSuccessfullLogins_TestData" duration-ms="15739" started-at="2018-04-01T06:25:57Z" finished-at="2018-04-01T06:26:13Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Error msg is as Expected]]>
+            </line>
+            <line>
+              <![CDATA[Error msg is as Expected]]>
+            </line>
+            <line>
+              <![CDATA[Error msg is as Expected]]>
+            </line>
+            <line>
+              <![CDATA[Error msg is as Expected]]>
+            </line>
+            <line>
+              <![CDATA[Error msg is as Expected]]>
+            </line>
+            <line>
+              <![CDATA[Error msg is as Expected]]>
+            </line>
+            <line>
+              <![CDATA[Error msg is as Expected]]>
+            </line>
+            <line>
+              <![CDATA[Error msg is as Expected]]>
+            </line>
+            <line>
+              <![CDATA[Error msg is as Expected]]>
+            </line>
+            <line>
+              <![CDATA[Error msg is as Expected]]>
+            </line>
+            <line>
+              <![CDATA[Error msg is as Expected]]>
+            </line>
+            <line>
+              <![CDATA[Error msg is as Expected]]>
+            </line>
+            <line>
+              <![CDATA[Error msg is as Expected]]>
+            </line>
+            <line>
+              <![CDATA[Test case 04 executed ]]>
+            </line>
+            <line>
+              <![CDATA[Verify that Error page is displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test_verifyMultipleUnSuccessfullLogins_TestData -->
+        <test-method status="PASS" signature="logout()[pri:0, instance:scripts.TestScript_04@54a097cc]" name="logout" is-config="true" duration-ms="2" started-at="2018-04-01T06:26:13Z" finished-at="2018-04-01T06:26:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:scripts.TestScript_04@54a097cc]" name="closeBrowser" is-config="true" duration-ms="2399" started-at="2018-04-01T06:26:13Z" finished-at="2018-04-01T06:26:15Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Browser closed sucessfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- scripts.TestScript_04 -->
+    </test> <!-- Test_ff -->
+  </suite> <!-- Suite -->
+</testng-results>

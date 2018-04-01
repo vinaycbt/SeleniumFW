@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test_ff(failed)">
+    <parameter name="browser" value="ff"/>
+    <classes>
+      <class name="scripts.TestScript_02">
+        <methods>
+          <include name="test_verifySuccessfullLogin"/>
+          <include name="launchBrowser"/>
+          <include name="logout"/>
+          <include name="login"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- scripts.TestScript_02 -->
+    </classes>
+  </test> <!-- Test_ff(failed) -->
+</suite> <!-- Failed suite [Suite] -->
